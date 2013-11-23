@@ -114,6 +114,42 @@ minetest.register_node("inlaid:diamondcobble", {
 	groups = {cracky=2},
 })
 
+minetest.register_node("inlaid:coalstonebrick", {
+	description = "Coal Stone Bricks",
+	tiles = {"default_stone_brick.png^default_mineral_coal.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:ironstonebrick", {
+	description = "Iron Stone Brick",
+	tiles = {"default_stone_brick.png^default_mineral_iron.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:copperstonebrick", {
+	description = "Copper Stone Brick",
+	tiles = {"default_stone_brick.png^default_mineral_copper.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:mesestonebrick", {
+	description = "MESE Stone Brick",
+	tiles = {"default_stone_brick.png^default_mineral_mese.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:goldstonebrick", {
+	description = "Gold Stone Brick",
+	tiles = {"default_stone_brick.png^default_mineral_gold.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:diamondstonebrick", {
+	description = "Diamond Stone Brick",
+	tiles = {"default_stone_brick.png^default_mineral_diamond.png"},
+	groups = {cracky=2},
+})
+
 --
 --Inlaid nodes are crafted with the node, lump, inlay tool, and chisel.
 --
@@ -188,6 +224,42 @@ minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamondcobble',
 	recipe = {"default:cobble", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:coalstonebrick',
+	recipe = {"default:stonebrick", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:ironstonebrick',
+	recipe = {"default:stonebrick", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:copperstonebrick',
+	recipe = {"default:stonebrick", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:mesestonebrick',
+	recipe = {"default:stonebrick", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:goldstonebrick',
+	recipe = {"default:stonebrick", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:diamondstonebrick',
+	recipe = {"default:stonebrick", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
 })
 
 --
