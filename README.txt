@@ -1,1 +1,1 @@
-Inlaid mod by Enke. Version 0.2. Should work with 0.4.7 and later. 
+Inlaid mod by Enke. Version 0.3. Works with 0.4.8 and later. 
