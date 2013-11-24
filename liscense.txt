@@ -1,1 +1,1 @@
-Liscense is WTFPL for code and textures.
+Liscense is WTFPL for the code, WTFPL for textures.
