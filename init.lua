@@ -43,146 +43,146 @@ minetest.register_craft({
 
 minetest.register_node("inlaid:coalwood", {
 	description = "Coal Wood",
-	tiles = {"default_wood.png^default_mineral_coal.png"},
+	tiles = {"inlaid_coalwood.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 })
 
 minetest.register_node("inlaid:ironwood", {
 	description = "Iron Wood",
-	tiles = {"default_wood.png^default_mineral_iron.png"},
+	tiles = {"inlaid_ironwood.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 })
 
 minetest.register_node("inlaid:copperwood", {
 	description = "Copper Wood",
-	tiles = {"default_wood.png^default_mineral_copper.png"},
+	tiles = {"inlaid_copperwood.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 })
 
 minetest.register_node("inlaid:mesewood", {
 	description = "MESE Wood",
-	tiles = {"default_wood.png^default_mineral_mese.png"},
+	tiles = {"inlaid_mesewood.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 })
 
 minetest.register_node("inlaid:goldwood", {
 	description = "Gold Wood",
-	tiles = {"default_wood.png^default_mineral_gold.png"},
+	tiles = {"inlaid_goldwood.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 })
 
 minetest.register_node("inlaid:diamondwood", {
 	description = "Diamond Wood",
-	tiles = {"default_wood.png^default_mineral_diamond.png"},
+	tiles = {"inlaid_diamondwood.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 })
 
 minetest.register_node("inlaid:coalcobble", {
 	description = "Coal Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_coal.png"},
+	tiles = {"inlaid_coalcobble.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:ironcobble", {
 	description = "Iron Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_iron.png"},
+	tiles = {"inlaid_ironcobble.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:coppercobble", {
 	description = "Copper Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_copper.png"},
+	tiles = {"inlaid_coppercobble.png"},
 	groups = {cracky=2},
 	drop
 })
 
 minetest.register_node("inlaid:mesecobble", {
 	description = "MESE Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_mese.png"},
+	tiles = {"inlaid_mesecobble.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:goldcobble", {
 	description = "Gold Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_gold.png"},
+	tiles = {"inlaid_goldcobble.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:diamondcobble", {
 	description = "Diamond Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_diamond.png"},
+	tiles = {"inlaid_diamondcobble.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:coalstonebrick", {
 	description = "Coal Stone Bricks",
-	tiles = {"default_stone_brick.png^default_mineral_coal.png"},
+	tiles = {"inlaid_coalstonebrick.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:ironstonebrick", {
 	description = "Iron Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_iron.png"},
+	tiles = {"inlaid_ironstonebrick.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:copperstonebrick", {
 	description = "Copper Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_copper.png"},
+	tiles = {"inlaid_copperstonebrick.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:mesestonebrick", {
 	description = "MESE Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_mese.png"},
+	tiles = {"inlaid_mesestonebrick.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:goldstonebrick", {
 	description = "Gold Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_gold.png"},
+	tiles = {"inlaid_goldstonebrick.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:diamondstonebrick", {
 	description = "Diamond Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_diamond.png"},
+	tiles = {"inlaid_diamondstonebrick.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:coalbrick", {
 	description = "Coal Brick",
-	tiles = {"default_brick.png^default_mineral_coal.png"},
+	tiles = {"inlaid_coalbrick.png"},
 	groups = {cracky=2},
 })
 
 minetest.register_node("inlaid:ironbrick", {
 	description = "Iron Brick",
-	tiles = {"default_brick.png^default_mineral_iron.png"},
+	tiles = {"inlaid_ironbrick.png"},
 	groups = {cracky=2}
 })
 
 minetest.register_node("inlaid:copperbrick", {
 	description = "Copper Brick",
-	tiles = {"default_brick.png^default_mineral_copper.png"},
+	tiles = {"inlaid_copperbrick.png"},
 	groups = {cracky=2}
 })
 
 minetest.register_node("inlaid:mesebrick", {
 	description = "MESE Brick",
-	tiles = {"default_brick.png^default_mineral_mese.png"},
+	tiles = {"inlaid_mesebrick.png"},
 	groups = {cracky=2}
 })
 
 minetest.register_node("inlaid:diamondbrick", {
 	description = "Diamond Brick",
-	tiles = {"default_brick.png^default_mineral_diamond.png"},
+	tiles = {"inlaid_diamondbrick.png"},
 	groups = {cracky=2}
 })
 
 minetest.register_node("inlaid:goldbrick", {
 	description = "Gold Brick",
-	tiles = {"default_brick.png^default_mineral_gold.png"},
+	tiles = {"inlaid_goldbrick.png"},
 	groups = {cracky=2}
 })
 
