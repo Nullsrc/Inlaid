@@ -1,0 +1,11 @@
+Version History, for those who are interested.
+
+0.1: Original release. Supported default:wood and default:cobble
+0.1.1: Uploaded the correct init.lua to GitHub
+
+0.2: Added support for default:stonebrick
+
+0.3: Added support for default:brick
+
+0.4: Code rewritten at the request of VanessaE, now uses textures provided by a texture folder.
+0.4.1: Nerfed Inlay Tool and Chisel recipes, now only outputs 20. License corrected accordingly with textures used.
