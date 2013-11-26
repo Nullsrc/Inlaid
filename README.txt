@@ -1,1 +1,1 @@
-inlaid mod by Enke. Version 0.4.1 For 0.4.8 stable and later.
+inlaid mod by Enke. Version 0.5. For 0.4.8 stable and later.
