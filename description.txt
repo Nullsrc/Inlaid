@@ -1,1 +1,1 @@
-This mod adds mineral textures onto nodes. Currently supports wood, cobble, stone brick, and brick. Currently in version 0.3.
+This mod adds mineral textures onto nodes. Currently supports wood, cobble, stone brick, brick, stone, desert stone, and sandstone. Currently in version 0.6.
