@@ -11,3 +11,5 @@ Version History, for those who are interested.
 0.4.1: Nerfed Inlay Tool and Chisel recipes, now only outputs 20.
 
 0.5: Added the much awaited support for default:stone
+
+0.6: Added support for default:desert_stone and default:sandstone

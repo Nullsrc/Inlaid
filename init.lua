@@ -222,6 +222,78 @@ minetest.register_node("inlaid:diamondstone", {
 	groups = {cracky=2},
 })
 
+minetest.register_node("inlaid:coalsandstone", {
+	description = "Coal Sandstone",
+	tiles = {"inlaid_coalsandstone.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:ironsandstone", {
+	description = "Iron Sandstone",
+	tiles = {"inlaid_ironsandstone.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:coppersandstone", {
+	description = "Copper Sandstone",
+	tiles = {"inlaid_coppersandstone.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:mesesandstone", {
+	description = "MESE Sandstone",
+	tiles = {"inlaid_mesesandstone.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:goldsandstone", {
+	description = "Gold Sandstone",
+	tiles = {"inlaid_goldsandstone.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:diamondsandstone", {
+	description = "Diamond Sandstone",
+	tiles = {"inlaid_diamondsandstone.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:coaldesert", {
+	description = "Coal Desert Stone",
+	tiles = {"inlaid_coaldesert.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:irondesert", {
+	description = "Iron Desert Stone",
+	tiles = {"inlaid_irondesert.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:copperdesert", {
+	description = "Copper Desert Stone",
+	tiles = {"inlaid_copperdesert.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:mesedesert", {
+	description = "MESE Desert Stone",
+	tiles = {"inlaid_mesedesert.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:golddesert", {
+	description = "Gold Desert Stone",
+	tiles = {"inlaid_golddesert.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:diamonddesert", {
+	description = "Diamond Desert Stone",
+	tiles = {"inlaid_diamonddesert.png"},
+	groups = {cracky=2},
+})
+
 --
 --Inlaid nodes are crafted with the node, lump, inlay tool, and chisel.
 --
@@ -404,6 +476,84 @@ minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamondstone',
 	recipe = {"default:stone", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:coalsandstone',
+	recipe = {"default:sandstone", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:ironsandstone',
+	recipe = {"default:sandstone", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:coppersandstone',
+	recipe = {"default:sandstone", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:mesesandstone',
+	recipe = {"default:sandstone", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:goldsandstone',
+	recipe = {"default:sandstone", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:diamondsandstone',
+	recipe = {"default:sandstone", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:coaldesert',
+	recipe = {"default:desert_stone", "default:coal", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:coaldesert',
+	recipe = {"default:desert_stone", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:irondesert',
+	recipe = {"default:desert_stone", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:copperdesert',
+	recipe = {"default:desert_stone", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:mesedesert',
+	recipe = {"default:desert_stone", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:golddesert',
+	recipe = {"default:desert_stone", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:diamonddesert',
+	recipe = {"default:desert_stone", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
 })
 
 --
