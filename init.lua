@@ -294,6 +294,36 @@ minetest.register_node("inlaid:diamonddesert", {
 	groups = {cracky=2},
 })
 
+minetest.register_node("inlaid:coalmese", {
+	description = "Coal MESE",
+	tiles = {"inlaid_coalmese.png"},
+	groups = {cracky=1},
+})
+
+minetest.register_node("inlaid:ironmese", {
+	description = "Iron MESE",
+	tiles = {"inlaid_ironmese.png"},
+	groups = {cracky=1},
+})
+
+minetest.register_node("inlaid:coppermese", {
+	description = "Copper MESE",
+	tiles = {"inlaid_coppermese.png"},
+	groups = {cracky=1},
+})
+
+minetest.register_node("inlaid:goldmese", {
+	description = "Gold MESE",
+	tiles = {"inlaid_goldmese.png"},
+	groups = {cracky=1},
+})
+
+minetest.register_node("inlaid:diamondmese", {
+	description = "Diamond MESE",
+	tiles = {"inlaid_diamondmese.png"},
+	groups = {cracky=1},
+})
+
 --
 --Inlaid nodes are crafted with the node, lump, inlay tool, and chisel.
 --
@@ -555,6 +585,40 @@ minetest.register_craft({
 	output = 'inlaid:diamonddesert',
 	recipe = {"default:desert_stone", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
 })
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:coalmese',
+	recipe = {"default:mese", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:ironmese',
+	recipe = {"default:mese", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:coppermese',
+	recipe = {"default:mese", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:goldmese',
+	recipe = {"default:mese", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'inlaid:diamondmese',
+	recipe = {"default:mese", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+
+
+
 
 --
 --If anyone desires to provide textures for a new version of inlaid, feel free to make them and post them for me. I would appreciate it.
