@@ -324,6 +324,42 @@ minetest.register_node("inlaid:diamondmese", {
 	groups = {cracky=1},
 })
 
+minetest.register_node("inlaid:coaljwood", {
+	description = "Coal Jungle Wood",
+	tiles = {"inlaid_coaljwood.png"},
+	groups ={choppy=3},
+})
+
+minetest.register_node("inlaid:ironjwood", {
+	description = "Iron Jungle Wood",
+	tiles = {"inlaid_ironjwood.png"},
+	groups ={choppy=3},
+})
+
+minetest.register_node("inlaid:copperjwood", {
+	description = "Copper Jungle Wood",
+	tiles = {"inlaid_copperjwood.png"},
+	groups ={choppy=3},
+})
+
+minetest.register_node("inlaid:mesejwood", {
+	description = "MESE Jungle Wood",
+	tiles = {"inlaid_mesejwood.png"},
+	groups ={choppy=3},
+})
+
+minetest.register_node("inlaid:goldjwood", {
+	description = "Gold Jungle Wood",
+	tiles = {"inlaid_goldjwood.png"},
+	groups ={choppy=3},
+})
+
+minetest.register_node("inlaid:diamondjwood", {
+	description = "Diamond Jungle Wood",
+	tiles = {"inlaid_diamondjwood.png"},
+	groups ={choppy=3},
+})
+
 --
 --Inlaid nodes are crafted with the node, lump, inlay tool, and chisel.
 --
@@ -616,9 +652,41 @@ minetest.register_craft({
 	recipe = {"default:mese", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
 })
 
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:coaljwood',
+	recipe = {"default:coal_lump", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+})
 
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:ironjwood',
+	recipe = {"default:iron_lump", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+})
 
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:copperjwood',
+	recipe = {"default:copper_lump", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+})
 
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:mesejwood',
+	recipe = {"default:mese_crystal", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:goldjwood',
+	recipe = {"default:gold_lump", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:diamondjwood',
+	recipe = {"default:diamond", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+})
 
 --
 --If anyone desires to provide textures for a new version of inlaid, feel free to make them and post them for me. I would appreciate it.
