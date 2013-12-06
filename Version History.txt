@@ -15,3 +15,5 @@ Version History, for those who are interested.
 0.6: Added support for default:desert_stone and default:sandstone
 
 0.7: Added support for default:mese
+
+0.8: Added support for default:junglewood
