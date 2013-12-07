@@ -327,37 +327,37 @@ minetest.register_node("inlaid:diamondmese", {
 minetest.register_node("inlaid:coaljwood", {
 	description = "Coal Jungle Wood",
 	tiles = {"inlaid_coaljwood.png"},
-	groups ={choppy=3},
+	groups = {choppy=3},
 })
 
 minetest.register_node("inlaid:ironjwood", {
 	description = "Iron Jungle Wood",
 	tiles = {"inlaid_ironjwood.png"},
-	groups ={choppy=3},
+	groups = {choppy=3},
 })
 
 minetest.register_node("inlaid:copperjwood", {
 	description = "Copper Jungle Wood",
 	tiles = {"inlaid_copperjwood.png"},
-	groups ={choppy=3},
+	groups = {choppy=3},
 })
 
 minetest.register_node("inlaid:mesejwood", {
 	description = "MESE Jungle Wood",
 	tiles = {"inlaid_mesejwood.png"},
-	groups ={choppy=3},
+	groups = {choppy=3},
 })
 
 minetest.register_node("inlaid:goldjwood", {
 	description = "Gold Jungle Wood",
 	tiles = {"inlaid_goldjwood.png"},
-	groups ={choppy=3},
+	groups = {choppy=3},
 })
 
 minetest.register_node("inlaid:diamondjwood", {
 	description = "Diamond Jungle Wood",
 	tiles = {"inlaid_diamondjwood.png"},
-	groups ={choppy=3},
+	groups = {choppy=3},
 })
 
 --
