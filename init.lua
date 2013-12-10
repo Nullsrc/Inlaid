@@ -360,6 +360,60 @@ minetest.register_node("inlaid:diamondjwood", {
 	groups = {choppy=3},
 })
 
+minetest.register_node("inlaid:dwood", {
+	description = "Diamond Wood",
+	tiles = {"inlaid_dwood.png"},
+	groups = {choppy=3},
+})
+
+minetest.register_node("inlaid:dcobble", {
+	description = "Diamond Cobble",
+	tiles = {"inlaid_dcobble.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:dstonebrick", {
+	description = "Diamond Stone Brick",
+	tiles = {"inlaid_dstonebrick.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:dbrick", {
+	description = "Diamond Brick",
+	tiles = {"inlaid_dbrick.png"},
+	groups = {cracky=1},
+})
+
+minetest.register_node("inlaid:dstone", {
+	description = "Diamond Stone",
+	tiles = {"inlaid_dstone.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:dsandstone", {
+	description = "Diamond Sandstone",
+	tiles = {"inlaid_dsandstone.png"},
+	groups = {cracky=3},
+})
+
+minetest.register_node("inlaid:ddesertstone", {
+	description = "Diamond Desert Stone",
+	tiles = {"inlaid_ddesertstone.png"},
+	groups = {cracky=2},
+})
+
+minetest.register_node("inlaid:dmese", {
+	description = "Diamond MESE",
+	tiles = {"inlaid_dmese.png"},
+	groups = {choppy=1},
+})
+
+minetest.register_node("inlaid:djwood", {
+	description = "Diamond Junglewood",
+	tiles = {"inlaid_djwood.png"},
+	groups = {choppy=3},
+})
+
 --
 --Inlaid nodes are crafted with the node, lump, inlay tool, and chisel.
 --
@@ -686,6 +740,54 @@ minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:diamondjwood',
 	recipe = {"default:diamond", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:dwood',
+	recipe = {"default:diamond", "default:wood", "inlaid:chisel"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:dcobble',
+	recipe = {"default:diamond", "default:cobble", "inlaid:chisel"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:dstonebrick',
+	recipe = {"default:diamond", "default:stonebrick", "inlaid:chisel"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:dbrick',
+	recipe = {"default:diamond", "default:brick", "inlaid:chisel"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:dsandstone',
+	recipe = {"default:diamond", "default:sandstone", "inlaid:chisel"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:ddesertstone',
+	recipe = {"default:diamond", "default:desert_stone", "inlaid:chisel"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:dmese',
+	recipe = {"default:diamond", "default:mese", "inlaid:chisel"},
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output='inlaid:djwood',
+	recipe = {"default:diamond", "default:junglewood", "inlaid:chisel"},
 })
 
 --
