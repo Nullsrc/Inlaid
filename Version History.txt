@@ -18,3 +18,5 @@ Version History, for those who are interested.
 
 0.8: Added support for default:junglewood
 0.8.1: Fixed stuff relating to inlaid junglewood.
+
+0.9: You can now inlay the inventory image of diamond into nodes.
