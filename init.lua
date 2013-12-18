@@ -20,7 +20,7 @@ minetest.register_craftitem("inlaid:chisel", {
 --
 
 minetest.register_craft({
-	output = 'inlaid:inlaytool 20',
+	output = 'inlaid:inlaytool 10',
 	recipe = {
 		{'default:steel_ingot', '', ''},
 		{'', 'group:stick', ''},
@@ -29,7 +29,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = 'inlaid:chisel 20',
+	output = 'inlaid:chisel 10',
 	recipe = {
 		{'group:stone', '', ''},
 		{'', 'group:stone', ''},
