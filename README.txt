@@ -24,3 +24,7 @@ Version History, for those who are interested.
 0.8.1: Fixed stuff relating to inlaid junglewood.
 
 0.9: You can now inlay the inventory image of diamond into nodes.
+
+0.10: File merger, recipes nerfed.
+
+1.0: Undoing of 0.4, added item drops.
