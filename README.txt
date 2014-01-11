@@ -28,3 +28,5 @@ Version History, for those who are interested.
 0.10: File merger, recipes nerfed.
 
 1.0: Undoing of 0.4, added item drops.
+1.0.1: Texture fix
+1.0.2: Stone redundancies fixed
