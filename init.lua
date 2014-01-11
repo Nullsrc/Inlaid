@@ -10,30 +10,16 @@ minetest.register_craftitem("inlaid:inlaytool", {
 	inventory_image = "inlaid_inlaytool.png",
 })
 
-minetest.register_craftitem("inlaid:chisel", {
-	description = "Chisel",
-	inventory_image = "inlaid_chisel.png",
-})
-
 --
 --Inlay tools are crafted by two sticks and a steel ingot, chisels with 3 cobblestone or stone.
 --
 
 minetest.register_craft({
-	output = 'inlaid:inlaytool 10',
+	output = 'inlaid:inlaytool',
 	recipe = {
-		{'default:steel_ingot', '', ''},
+		{'', '', 'default:steel_ingot'},
 		{'', 'group:stick', ''},
-		{'', '', 'group:stick'},
-	}
-})
-
-minetest.register_craft({
-	output = 'inlaid:chisel 10',
-	recipe = {
-		{'group:stone', '', ''},
-		{'', 'group:stone', ''},
-		{'', '', 'group:stone'},
+		{'group:stick', '', ''},
 	}
 })
 
@@ -85,42 +71,42 @@ minetest.register_node("inlaid:diamondwood", {
 
 minetest.register_node("inlaid:coalcobble", {
 	description = "Coal Cobblestone",
-	tiles = {"defualt_cobble.png^default_mineral_coal.png"},
+	tiles = {"default_cobble.png^default_mineral_coal.png"},
 	groups = {cracky=2},
 	drop = 'default:coal_lump',
 })
 
 minetest.register_node("inlaid:ironcobble", {
 	description = "Iron Cobblestone",
-	tiles = {"defualt_cobble.png^default_mineral_iron.png"},
+	tiles = {"default_cobble.png^default_mineral_iron.png"},
 	groups = {cracky=2},
 	drop = 'default:iron_lump',
 })
 
 minetest.register_node("inlaid:coppercobble", {
 	description = "Copper Cobblestone",
-	tiles = {"defualt_cobble.png^default_mineral_copper.png"},
+	tiles = {"default_cobble.png^default_mineral_copper.png"},
 	groups = {cracky=2},
 	drop = 'default:copper_lump',
 })
 
 minetest.register_node("inlaid:mesecobble", {
 	description = "MESE Cobblestone",
-	tiles = {"defualt_cobble.png^default_mineral_mese.png"},
+	tiles = {"default_cobble.png^default_mineral_mese.png"},
 	groups = {cracky=2},
 	drop = 'default:mese_crystal',
 })
 
 minetest.register_node("inlaid:goldcobble", {
 	description = "Gold Cobblestone",
-	tiles = {"defualt_cobble.png^default_mineral_gold.png"},
+	tiles = {"default_cobble.png^default_mineral_gold.png"},
 	groups = {cracky=2},
 	drop = 'default:gold_lump',
 })
 
 minetest.register_node("inlaid:diamondcobble", {
 	description = "Diamond Cobblestone",
-	tiles = {"defualt_cobble.png^default_mineral_diamond.png"},
+	tiles = {"default_cobble.png^default_mineral_diamond.png"},
 	groups = {cracky=2},
 	drop = 'default:diamond',
 })
@@ -440,375 +426,437 @@ minetest.register_node("inlaid:djwood", {
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coalwood',
-	recipe = {"default:wood", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:wood", "default:coal_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:ironwood',
-	recipe = {"default:wood", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:wood", "default:iron_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:copperwood',
-	recipe = {"default:wood", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:wood", "default:copper_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:mesewood',
-	recipe = {"default:wood", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:wood", "default:mese_crystal", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:goldwood',
-	recipe = {"default:wood", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:wood", "default:gold_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamondwood',
-	recipe = {"default:wood", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:wood", "default:diamond", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coalcobble',
-	recipe = {"default:cobble", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:cobble", "default:coal_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:ironcobble',
-	recipe = {"default:cobble", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:cobble", "default:iron_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coppercobble',
-	recipe = {"default:cobble", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:cobble", "default:copper_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:mesecobble',
-	recipe = {"default:cobble", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:cobble", "default:mese_crystal", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:goldcobble',
-	recipe = {"default:cobble", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:cobble", "default:gold_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamondcobble',
-	recipe = {"default:cobble", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:cobble", "default:diamond", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coalstonebrick',
-	recipe = {"default:stonebrick", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stonebrick", "default:coal_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:ironstonebrick',
-	recipe = {"default:stonebrick", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stonebrick", "default:iron_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:copperstonebrick',
-	recipe = {"default:stonebrick", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stonebrick", "default:copper_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:mesestonebrick',
-	recipe = {"default:stonebrick", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stonebrick", "default:mese_crystal", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:goldstonebrick',
-	recipe = {"default:stonebrick", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stonebrick", "default:gold_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamondstonebrick',
-	recipe = {"default:stonebrick", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stonebrick", "default:diamond", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coalbrick',
-	recipe = {"default:brick", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:brick", "default:coal_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:ironbrick',
-	recipe = {"default:brick", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:brick", "default:iron_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:copperbrick',
-	recipe = {"default:brick", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:brick", "default:copper_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:mesebrick',
-	recipe = {"default:brick", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:brick", "default:mese_crystal", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:goldbrick',
-	recipe = {"default:brick", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:brick", "default:gold_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamondbrick',
-	recipe = {"default:brick", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:brick", "default:diamond", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'default:stone_with_coal',
-	recipe = {"default:stone", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stone", "default:coal_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'default:stone_with_iron',
-	recipe = {"default:stone", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stone", "default:iron_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'default:stone_with_copper',
-	recipe = {"default:stone", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stone", "default:copper_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'default:stone_with_mese',
-	recipe = {"default:stone", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stone", "default:mese_crystal", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'default:stone_with_gold',
-	recipe = {"default:stone", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stone", "default:gold_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'default:stone_with_diamond',
-	recipe = {"default:stone", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:stone", "default:diamond", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coalsandstone',
-	recipe = {"default:sandstone", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:sandstone", "default:coal_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:ironsandstone',
-	recipe = {"default:sandstone", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:sandstone", "default:iron_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coppersandstone',
-	recipe = {"default:sandstone", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:sandstone", "default:copper_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:mesesandstone',
-	recipe = {"default:sandstone", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:sandstone", "default:mese_crystal", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:goldsandstone',
-	recipe = {"default:sandstone", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:sandstone", "default:gold_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamondsandstone',
-	recipe = {"default:sandstone", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:sandstone", "default:diamond", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coaldesert',
-	recipe = {"default:desert_stone", "default:coal", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:desert_stone", "default:coal", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coaldesert',
-	recipe = {"default:desert_stone", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:desert_stone", "default:coal_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:irondesert',
-	recipe = {"default:desert_stone", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:desert_stone", "default:iron_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:copperdesert',
-	recipe = {"default:desert_stone", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:desert_stone", "default:copper_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:mesedesert',
-	recipe = {"default:desert_stone", "default:mese_crystal", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:desert_stone", "default:mese_crystal", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:golddesert',
-	recipe = {"default:desert_stone", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:desert_stone", "default:gold_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamonddesert',
-	recipe = {"default:desert_stone", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:desert_stone", "default:diamond", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coalmese',
-	recipe = {"default:mese", "default:coal_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:mese", "default:coal_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:ironmese',
-	recipe = {"default:mese", "default:iron_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:mese", "default:iron_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:coppermese',
-	recipe = {"default:mese", "default:copper_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:mese", "default:copper_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:goldmese',
-	recipe = {"default:mese", "default:gold_lump", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:mese", "default:gold_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamondmese',
-	recipe = {"default:mese", "default:diamond", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:mese", "default:diamond", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:coaljwood',
-	recipe = {"default:coal_lump", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:coal_lump", "default:junglewood", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:ironjwood',
-	recipe = {"default:iron_lump", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:iron_lump", "default:junglewood", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:copperjwood',
-	recipe = {"default:copper_lump", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:copper_lump", "default:junglewood", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:mesejwood',
-	recipe = {"default:mese_crystal", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:mese_crystal", "default:junglewood", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:goldjwood',
-	recipe = {"default:gold_lump", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:gold_lump", "default:junglewood",  "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:diamondjwood',
-	recipe = {"default:diamond", "default:junglewood", "inlaid:chisel", "inlaid:inlaytool"},
+	recipe = {"default:diamond", "default:junglewood", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:dwood',
-	recipe = {"default:diamond", "default:wood", "inlaid:chisel"},
+	recipe = {"default:diamond", "default:wood", "inlaid:inlaytool", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:dcobble',
-	recipe = {"default:diamond", "default:cobble", "inlaid:chisel"},
+	recipe = {"default:diamond", "default:cobble", "inlaid:inlaytool", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:dstonebrick',
-	recipe = {"default:diamond", "default:stonebrick", "inlaid:chisel"},
+	recipe = {"default:diamond", "default:stonebrick", "inlaid:inlaytool", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:dbrick',
-	recipe = {"default:diamond", "default:brick", "inlaid:chisel"},
+	recipe = {"default:diamond", "default:brick", "inlaid:inlaytool", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:dsandstone',
-	recipe = {"default:diamond", "default:sandstone", "inlaid:chisel"},
+	recipe = {"default:diamond", "default:sandstone", "inlaid:inlaytool", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:ddesertstone',
-	recipe = {"default:diamond", "default:desert_stone", "inlaid:chisel"},
+	recipe = {"default:diamond", "default:desert_stone", "inlaid:inlaytool", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:dmese',
-	recipe = {"default:diamond", "default:mese", "inlaid:chisel"},
+	recipe = {"default:diamond", "default:mese", "inlaid:inlaytool", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
 	output='inlaid:djwood',
-	recipe = {"default:diamond", "default:junglewood", "inlaid:chisel"},
+	recipe = {"default:diamond", "default:junglewood", "inlaid:inlaytool", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 --
---If anyone desires to provide textures for a new version of inlaid, feel free to make them and post them for me. I would appreciate it.
+--If anyone desires to provide textures of the inlaytool for a new version of inlaid, feel free to make them and post them for me. I would appreciate it.
 --
