@@ -1,3 +1,3 @@
 License for the code is WTFPL.
-License for the textures of the Inlay Tool and Chisel is WTFPL.
-Liscense for the textures of the Inlaid nodes is CC BY-SA.
+License for the textures of the Inlay Tool is WTFPL.
+Liscense of the nodes is the liscense of the texture pack you are using. For default, it is CC-BY SA

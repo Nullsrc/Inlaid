@@ -30,3 +30,5 @@ Version History, for those who are interested.
 1.0: Undoing of 0.4, added item drops.
 1.0.1: Texture fix
 1.0.2: Stone redundancies fixed
+
+1.1: inlaid:chisel phased out, and now the inlaytool will have infinite uses! New texture for the inlay tool as well.
