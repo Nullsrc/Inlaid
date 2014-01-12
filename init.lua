@@ -29,394 +29,247 @@ minetest.register_craft({
 
 minetest.register_node("inlaid:coalwood", {
 	description = "Coal Wood",
-	tiles = {"default_wood.png^default_mineral_coal.png"},
+	tiles = {"default_wood.png^inlaid_coal.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 	drop = 'default:coal_lump',
 })
 
 minetest.register_node("inlaid:ironwood", {
 	description = "Iron Wood",
-	tiles = {"default_wood.png^default_mineral_iron.png"},
+	tiles = {"default_wood.png^inlaid_iron.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 	drop = 'default:iron_lump',
 })
 
 minetest.register_node("inlaid:copperwood", {
 	description = "Copper Wood",
-	tiles = {"default_wood.png^default_mineral_copper.png"},
+	tiles = {"default_wood.png^inlaid_copper.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 	drop = 'default:copper_lump',
 })
 
 minetest.register_node("inlaid:mesewood", {
 	description = "MESE Wood",
-	tiles = {"default_wood.png^default_mineral_mese.png"},
+	tiles = {"default_wood.png^inlaid_mese.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 	drop = 'default:mese_crystal',
 })
 
 minetest.register_node("inlaid:goldwood", {
 	description = "Gold Wood",
-	tiles = {"default_wood.png^default_mineral_gold.png"},
+	tiles = {"default_wood.png^inlaid_gold.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 	drop = 'default:gold_lump',
 })
 
 minetest.register_node("inlaid:diamondwood", {
 	description = "Diamond Wood",
-	tiles = {"default_wood.png^default_mineral_diamond.png"},
+	tiles = {"default_wood.png^inlaid_diamond.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
 	drop = 'default:diamond',
 })
 
 minetest.register_node("inlaid:coalcobble", {
 	description = "Coal Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_coal.png"},
+	tiles = {"default_cobble.png^inlaid_coal.png"},
 	groups = {cracky=2},
 	drop = 'default:coal_lump',
 })
 
 minetest.register_node("inlaid:ironcobble", {
 	description = "Iron Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_iron.png"},
+	tiles = {"default_cobble.png^inlaid_iron.png"},
 	groups = {cracky=2},
 	drop = 'default:iron_lump',
 })
 
 minetest.register_node("inlaid:coppercobble", {
 	description = "Copper Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_copper.png"},
+	tiles = {"default_cobble.png^inlaid_copper.png"},
 	groups = {cracky=2},
 	drop = 'default:copper_lump',
 })
 
 minetest.register_node("inlaid:mesecobble", {
 	description = "MESE Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_mese.png"},
+	tiles = {"default_cobble.png^inlaid_mese.png"},
 	groups = {cracky=2},
 	drop = 'default:mese_crystal',
 })
 
 minetest.register_node("inlaid:goldcobble", {
 	description = "Gold Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_gold.png"},
+	tiles = {"default_cobble.png^inlaid_gold.png"},
 	groups = {cracky=2},
 	drop = 'default:gold_lump',
 })
 
 minetest.register_node("inlaid:diamondcobble", {
 	description = "Diamond Cobblestone",
-	tiles = {"default_cobble.png^default_mineral_diamond.png"},
+	tiles = {"default_cobble.png^inlaid_diamond.png"},
 	groups = {cracky=2},
 	drop = 'default:diamond',
 })
 
 minetest.register_node("inlaid:coalstonebrick", {
 	description = "Coal Stone Bricks",
-	tiles = {"default_stone_brick.png^default_mineral_coal.png"},
+	tiles = {"default_stone_brick.png^inlaid_coal.png"},
 	groups = {cracky=2},
 	drop = 'default:coal_lump',
 })
 
 minetest.register_node("inlaid:ironstonebrick", {
 	description = "Iron Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_iron.png"},
+	tiles = {"default_stone_brick.png^inlaid_iron.png"},
 	groups = {cracky=2},
 	drop = 'default:iron_lump',
 })
 
 minetest.register_node("inlaid:copperstonebrick", {
 	description = "Copper Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_copper.png"},
+	tiles = {"default_stone_brick.png^inlaid_copper.png"},
 	groups = {cracky=2},
 	drop = 'default:copper_lump',
 })
 
 minetest.register_node("inlaid:mesestonebrick", {
 	description = "MESE Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_mese.png"},
+	tiles = {"default_stone_brick.png^inlaid_mese.png"},
 	groups = {cracky=2},
 	drop = 'default:mese_crystal',
 })
 
 minetest.register_node("inlaid:goldstonebrick", {
 	description = "Gold Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_gold.png"},
+	tiles = {"default_stone_brick.png^inlaid_gold.png"},
 	groups = {cracky=2},
 	drop = 'default:gold_lump',
 })
 
 minetest.register_node("inlaid:diamondstonebrick", {
 	description = "Diamond Stone Brick",
-	tiles = {"default_stone_brick.png^default_mineral_diamond.png"},
-	groups = {cracky=2},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:coalbrick", {
-	description = "Coal Brick",
-	tiles = {"default_brick.png^default_mineral_coal.png"},
-	groups = {cracky=2},
-	drop = 'default:coal_lump',
-})
-
-minetest.register_node("inlaid:ironbrick", {
-	description = "Iron Brick",
-	tiles = {"default_brick.png^default_mineral_iron.png"},
-	groups = {cracky=2},
-	drop = 'default:iron_lump',
-})
-
-minetest.register_node("inlaid:copperbrick", {
-	description = "Copper Brick",
-	tiles = {"default_brick.png^default_mineral_copper.png"},
-	groups = {cracky=2},
-	drop = 'default:copper_lump',
-})
-
-minetest.register_node("inlaid:mesebrick", {
-	description = "MESE Brick",
-	tiles = {"default_brick.png^default_mineral_mese.png"},
-	groups = {cracky=2},
-	drop = 'default:mese_crystal',
-})
-
-minetest.register_node("inlaid:diamondbrick", {
-	description = "Diamond Brick",
-	tiles = {"default_brick.png^default_mineral_diamond.png"},
-	groups = {cracky=2},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:goldbrick", {
-	description = "Gold Brick",
-	tiles = {"default_brick.png^default_mineral_gold.png"},
-	groups = {cracky=2},
-	drop = 'default:gold_lump',
-})
-
-minetest.register_node("inlaid:coalsandstone", {
-	description = "Coal Sandstone",
-	tiles = {"default_sandstone.png^default_mineral_coal.png"},
-	groups = {cracky=2},
-	drop = 'default:coal_lump',
-})
-
-minetest.register_node("inlaid:ironsandstone", {
-	description = "Iron Sandstone",
-	tiles = {"default_sandstone.png^default_mineral_iron.png"},
-	groups = {cracky=2},
-	drop = 'default:iron_lump',
-})
-
-minetest.register_node("inlaid:coppersandstone", {
-	description = "Copper Sandstone",
-	tiles = {"default_sandstone.png^default_mineral_copper.png"},
-	groups = {cracky=2},
-	drop = 'default:copper_lump',
-})
-
-minetest.register_node("inlaid:mesesandstone", {
-	description = "MESE Sandstone",
-	tiles = {"default_sandstone.png^default_mineral_mese.png"},
-	groups = {cracky=2},
-	drop = 'default:mese_crystal',
-})
-
-minetest.register_node("inlaid:goldsandstone", {
-	description = "Gold Sandstone",
-	tiles = {"default_sandstone.png^default_mineral_gold.png"},
-	groups = {cracky=2},
-	drop = 'default:gold_lump',
-})
-
-minetest.register_node("inlaid:diamondsandstone", {
-	description = "Diamond Sandstone",
-	tiles = {"default_sandstone.png^default_mineral_diamond.png"},
+	tiles = {"default_stone_brick.png^inlaid_diamond.png"},
 	groups = {cracky=2},
 	drop = 'default:diamond',
 })
 
 minetest.register_node("inlaid:coaldesert", {
 	description = "Coal Desert Stone",
-	tiles = {"default_desert_stone.png^default_mineral_coal.png"},
+	tiles = {"default_desert_stone.png^inlaid_coal.png"},
 	groups = {cracky=2},
 	drop = 'default:coal_lump',
 })
 
 minetest.register_node("inlaid:irondesert", {
 	description = "Iron Desert Stone",
-	tiles = {"default_desert_stone.png^default_mineral_iron.png"},
+	tiles = {"default_desert_stone.png^inlaid_iron.png"},
 	groups = {cracky=2},
 	drop = 'default:iron_lump',
 })
 
 minetest.register_node("inlaid:copperdesert", {
 	description = "Copper Desert Stone",
-	tiles = {"default_desert_stone.png^default_mineral_copper.png"},
+	tiles = {"default_desert_stone.png^inlaid_copper.png"},
 	groups = {cracky=2},
 	drop = 'default:copper_lump',
 })
 
 minetest.register_node("inlaid:mesedesert", {
 	description = "MESE Desert Stone",
-	tiles = {"default_desert_stone.png^default_mineral_mese.png"},
+	tiles = {"default_desert_stone.png^inlaid_mese.png"},
 	groups = {cracky=2},
 	drop = 'default:mese_crystal',
 })
 
 minetest.register_node("inlaid:golddesert", {
 	description = "Gold Desert Stone",
-	tiles = {"default_desert_stone.png^default_mineral_gold.png"},
+	tiles = {"default_desert_stone.png^inlaid_gold.png"},
 	groups = {cracky=2},
 	drop = 'default:gold_lump',
 })
 
 minetest.register_node("inlaid:diamonddesert", {
 	description = "Diamond Desert Stone",
-	tiles = {"default_desert_stone.png^default_mineral_diamond.png"},
+	tiles = {"default_desert_stone.png^inlaid_diamond.png"},
 	groups = {cracky=2},
 	drop = 'default:diamond',
 })
 
 minetest.register_node("inlaid:coalmese", {
 	description = "Coal MESE",
-	tiles = {"default_mese_block.png^default_mineral_coal.png"},
+	tiles = {"default_mese_block.png^inlaid_coal.png"},
 	groups = {cracky=1},
 	drop = 'default:coal_lump',
 })
 
 minetest.register_node("inlaid:ironmese", {
 	description = "Iron MESE",
-	tiles = {"default_mese_block.png^default_mineral_iron.png"},
+	tiles = {"default_mese_block.png^inlaid_iron.png"},
 	groups = {cracky=1},
 	drop = 'default:iron_lump',
 })
 
 minetest.register_node("inlaid:coppermese", {
 	description = "Copper MESE",
-	tiles = {"default_mese_block.png^default_mineral_copper.png"},
+	tiles = {"default_mese_block.png^inlaid_copper.png"},
 	groups = {cracky=1},
 	drop = 'default:copper_lump',
 })
 
 minetest.register_node("inlaid:goldmese", {
 	description = "Gold MESE",
-	tiles = {"default_mese_block.png^default_mineral_gold.png"},
+	tiles = {"default_mese_block.png^inlaid_mese.png"},
 	groups = {cracky=1},
 	drop = 'default:gold_lump',
 })
 
 minetest.register_node("inlaid:diamondmese", {
 	description = "Diamond MESE",
-	tiles = {"default_mese_block.png^default_mineral_diamond.png"},
+	tiles = {"default_mese_block.png^inlaid_diamond.png"},
 	groups = {cracky=1},
 	drop = 'default:diamond',
 })
 
-minetest.register_node("inlaid:coaljwood", {
-	description = "Coal Jungle Wood",
-	tiles = {"default_junglewood.png^default_mineral_coal.png"},
-	groups = {choppy=3},
+minetest.register_node("inlaid:coalstone", {
+	description = "Coal Stone",
+	tiles = {"default_stone.png^inlaid_coal.png"},
+	groups = {cracky=2},
 	drop = 'default:coal_lump',
 })
 
-minetest.register_node("inlaid:ironjwood", {
-	description = "Iron Jungle Wood",
-	tiles = {"default_junglewood.png^default_mineral_iron.png"},
-	groups = {choppy=3},
+minetest.register_node("inlaid:ironstone", {
+	description = "Iron Stone",
+	tiles = {"default_stone.png^inlaid_iron.png"},
+	groups = {cracky=2},
 	drop = 'default:iron_lump',
 })
 
-minetest.register_node("inlaid:copperjwood", {
-	description = "Copper Jungle Wood",
-	tiles = {"default_junglewood.png^default_mineral_copper.png"},
-	groups = {choppy=3},
+minetest.register_node("inlaid:copperstone", {
+	description = "Copper Stone",
+	tiles = {"default_stone.png^inlaid_copper.png"},
+	groups = {cracky=2},
 	drop = 'default:copper_lump',
 })
 
-minetest.register_node("inlaid:mesejwood", {
-	description = "MESE Jungle Wood",
-	tiles = {"default_junglewood.png^default_mineral_mese.png"},
-	groups = {choppy=3},
+minetest.register_node("inlaid:mesestone", {
+	description = "MESE Stone",
+	tiles = {"default_stone.png^inlaid_mese.png"},
+	groups = {cracky=2},
 	drop = 'default:mese_crystal',
 })
 
-minetest.register_node("inlaid:goldjwood", {
-	description = "Gold Jungle Wood",
-	tiles = {"default_junglewood.png^default_mineral_gold.png"},
-	groups = {choppy=3},
-	drop = 'default:gold_lump',
-})
-
-minetest.register_node("inlaid:diamondjwood", {
-	description = "Diamond Jungle Wood",
-	tiles = {"default_junglewood.png^default_mineral_diamond.png"},
-	groups = {choppy=3},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:dwood", {
-	description = "Diamond Wood",
-	tiles = {"default_wood.png^default_diamond.png"},
-	groups = {choppy=3},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:dcobble", {
-	description = "Diamond Cobble",
-	tiles = {"default_cobble.png^default_diamond.png"},
-	groups = {cracky=2},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:dstonebrick", {
-	description = "Diamond Stone Brick",
-	tiles = {"default_stone_brick.png^default_diamond.png"},
-	groups = {cracky=2},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:dbrick", {
-	description = "Diamond Brick",
-	tiles = {"default_brick.png^default_diamond.png"},
-	groups = {cracky=1},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:dstone", {
+minetest.register_node("inlaid:diamondstone", {
 	description = "Diamond Stone",
-	tiles = {"default_stone.png^default_diamond.png"},
+	tiles = {"default_stone.png^inlaid_diamond.png"},
 	groups = {cracky=2},
 	drop = 'default:diamond',
 })
 
-minetest.register_node("inlaid:dsandstone", {
-	description = "Diamond Sandstone",
-	tiles = {"default_sandstone.png^default_diamond.png"},
-	groups = {cracky=3},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:ddesertstone", {
-	description = "Diamond Desert Stone",
-	tiles = {"default_desert_stone.png^default_diamond.png"},
+minetest.register_node("inlaid:goldstone", {
+	description = "Gold Stone",
+	tiles = {"default_stone.png^inlaid_gold.png"},
 	groups = {cracky=2},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:dmese", {
-	description = "Diamond MESE",
-	tiles = {"default_mese_block.png^default_diamond.png"},
-	groups = {choppy=1},
-	drop = 'default:diamond',
-})
-
-minetest.register_node("inlaid:djwood", {
-	description = "Diamond Junglewood",
-	tiles = {"default_junglewood.png^default_diamond.png"},
-	groups = {choppy=3},
-	drop = 'default:diamond',
+	drop = 'default:gold_lump',
 })
 
 --
@@ -551,127 +404,43 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'inlaid:coalbrick',
-	recipe = {"default:brick", "default:coal_lump", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:ironbrick',
-	recipe = {"default:brick", "default:iron_lump", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:copperbrick',
-	recipe = {"default:brick", "default:copper_lump", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:mesebrick',
-	recipe = {"default:brick", "default:mese_crystal", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:goldbrick',
-	recipe = {"default:brick", "default:gold_lump", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:diamondbrick',
-	recipe = {"default:brick", "default:diamond", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'default:stone_with_coal',
+	output = 'inlaid:coalstone',
 	recipe = {"default:stone", "default:coal_lump", "inlaid:inlaytool"},
 		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'default:stone_with_iron',
+	output = 'inlaid:ironstone',
 	recipe = {"default:stone", "default:iron_lump", "inlaid:inlaytool"},
 		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'default:stone_with_copper',
+	output = 'inlaid:copperstone',
 	recipe = {"default:stone", "default:copper_lump", "inlaid:inlaytool"},
 		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'default:stone_with_mese',
+	output = 'inlaid:mesestone',
 	recipe = {"default:stone", "default:mese_crystal", "inlaid:inlaytool"},
 		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'default:stone_with_gold',
+	output = 'inlaid:goldstone',
 	recipe = {"default:stone", "default:gold_lump", "inlaid:inlaytool"},
 		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'default:stone_with_diamond',
+	output = 'inlaid:diamondstone',
 	recipe = {"default:stone", "default:diamond", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:coalsandstone',
-	recipe = {"default:sandstone", "default:coal_lump", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:ironsandstone',
-	recipe = {"default:sandstone", "default:iron_lump", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:coppersandstone',
-	recipe = {"default:sandstone", "default:copper_lump", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:mesesandstone',
-	recipe = {"default:sandstone", "default:mese_crystal", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:goldsandstone',
-	recipe = {"default:sandstone", "default:gold_lump", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output = 'inlaid:diamondsandstone',
-	recipe = {"default:sandstone", "default:diamond", "inlaid:inlaytool"},
 		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
@@ -756,104 +525,6 @@ minetest.register_craft({
 	type = "shapeless",
 	output = 'inlaid:diamondmese',
 	recipe = {"default:mese", "default:diamond", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:coaljwood',
-	recipe = {"default:coal_lump", "default:junglewood", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:ironjwood',
-	recipe = {"default:iron_lump", "default:junglewood", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:copperjwood',
-	recipe = {"default:copper_lump", "default:junglewood", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:mesejwood',
-	recipe = {"default:mese_crystal", "default:junglewood", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:goldjwood',
-	recipe = {"default:gold_lump", "default:junglewood",  "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:diamondjwood',
-	recipe = {"default:diamond", "default:junglewood", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:dwood',
-	recipe = {"default:diamond", "default:wood", "inlaid:inlaytool", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:dcobble',
-	recipe = {"default:diamond", "default:cobble", "inlaid:inlaytool", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:dstonebrick',
-	recipe = {"default:diamond", "default:stonebrick", "inlaid:inlaytool", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:dbrick',
-	recipe = {"default:diamond", "default:brick", "inlaid:inlaytool", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:dsandstone',
-	recipe = {"default:diamond", "default:sandstone", "inlaid:inlaytool", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:ddesertstone',
-	recipe = {"default:diamond", "default:desert_stone", "inlaid:inlaytool", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:dmese',
-	recipe = {"default:diamond", "default:mese", "inlaid:inlaytool", "inlaid:inlaytool"},
-		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
-})
-
-minetest.register_craft({
-	type = "shapeless",
-	output='inlaid:djwood',
-	recipe = {"default:diamond", "default:junglewood", "inlaid:inlaytool", "inlaid:inlaytool"},
 		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
