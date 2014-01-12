@@ -1,5 +1,5 @@
 
---This mod inlays wood and stone with certain ores.
+--This mod inlays nodes with certain ores.
 
 --
 --Place these in the crafting grid to inlay lumps into nodes.
@@ -11,7 +11,7 @@ minetest.register_craftitem("inlaid:inlaytool", {
 })
 
 --
---Inlay tools are crafted by two sticks and a steel ingot, chisels with 3 cobblestone or stone.
+--Inlay tools are crafted by two sticks and a steel ingot
 --
 
 minetest.register_craft({
