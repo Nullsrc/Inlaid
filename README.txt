@@ -1,6 +1,6 @@
-inlaid mod by Enke. Version 0.9. For Minetest 0.4.8 stable or later. For Freeminer 0.4.8.0 or later.
+inlaid mod by Enke. Version 1.1.1. For Minetest 0.4.8 stable or later. For Freeminer 0.4.8.0 or later.
 Install by unpacking the file to your "mods" directory, and rename the folder to "inlaid"
-depends on default
+Inform me of bugs by creating an issue in Github
 
 Version History, for those who are interested.
 
@@ -32,3 +32,4 @@ Version History, for those who are interested.
 1.0.2: Stone redundancies fixed
 
 1.1: inlaid:chisel phased out, and now the inlaytool will have infinite uses! New texture for the inlay tool as well.
+1.1.1: Not much here, other than all of my commits were made with Git Bash. Texture slightly edited.
