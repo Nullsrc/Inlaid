@@ -1,4 +1,4 @@
-inlaid mod by Enke. Version 1.1.1. For Minetest 0.4.8 stable or later. For Freeminer 0.4.8.0 or later.
+inlaid mod by Enke. Version 1.2.dev11213. For Minetest 0.4.8 stable or later. For Freeminer 0.4.8.0 or later.
 Install by unpacking the file to your "mods" directory, and rename the folder to "inlaid"
 Inform me of bugs by creating an issue in Github
 
