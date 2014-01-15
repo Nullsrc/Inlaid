@@ -30,42 +30,42 @@ minetest.register_craft({
 minetest.register_node("inlaid:coalwood", {
 	description = "Coal Wood",
 	tiles = {"default_wood.png^inlaid_coal.png"},
-	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
+	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:coal_lump',
 })
 
 minetest.register_node("inlaid:ironwood", {
 	description = "Iron Wood",
 	tiles = {"default_wood.png^inlaid_iron.png"},
-	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
+	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:iron_lump',
 })
 
 minetest.register_node("inlaid:copperwood", {
 	description = "Copper Wood",
 	tiles = {"default_wood.png^inlaid_copper.png"},
-	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
+	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:copper_lump',
 })
 
 minetest.register_node("inlaid:mesewood", {
 	description = "MESE Wood",
 	tiles = {"default_wood.png^inlaid_mese.png"},
-	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
+	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:mese_crystal',
 })
 
 minetest.register_node("inlaid:goldwood", {
 	description = "Gold Wood",
 	tiles = {"default_wood.png^inlaid_gold.png"},
-	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
+	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:gold_lump',
 })
 
 minetest.register_node("inlaid:diamondwood", {
 	description = "Diamond Wood",
 	tiles = {"default_wood.png^inlaid_diamond.png"},
-	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=2,wood=1},
+	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:diamond',
 })
 
