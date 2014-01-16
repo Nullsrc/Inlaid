@@ -1,0 +1,4 @@
+You can contact me in several ways.
+Through the Minetest or Freeminer Forums
+On Github. If it is a bug report, create an issue in the Inlaid repo.
+In IRC. I'm usually on #minetest, #freeminer, and #nethack @ freenode. I'm also on #minetest@irc.inchra.net
