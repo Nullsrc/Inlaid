@@ -32,6 +32,7 @@ minetest.register_node("inlaid:coalwood", {
 	tiles = {"default_wood.png^inlaid_coal.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:coal_lump',
+	sounds = default.node_sound_wood_defaults(),
 })
 
 minetest.register_node("inlaid:ironwood", {
@@ -39,6 +40,7 @@ minetest.register_node("inlaid:ironwood", {
 	tiles = {"default_wood.png^inlaid_iron.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:iron_lump',
+	sounds = default.node_sound_wood_defaults(),
 })
 
 minetest.register_node("inlaid:copperwood", {
@@ -46,6 +48,7 @@ minetest.register_node("inlaid:copperwood", {
 	tiles = {"default_wood.png^inlaid_copper.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:copper_lump',
+	sounds = default.node_sound_wood_defaults(),
 })
 
 minetest.register_node("inlaid:mesewood", {
@@ -53,6 +56,7 @@ minetest.register_node("inlaid:mesewood", {
 	tiles = {"default_wood.png^inlaid_mese.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:mese_crystal',
+	sounds = default.node_sound_wood_defaults(),
 })
 
 minetest.register_node("inlaid:goldwood", {
@@ -60,6 +64,7 @@ minetest.register_node("inlaid:goldwood", {
 	tiles = {"default_wood.png^inlaid_gold.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:gold_lump',
+	sounds = default.node_sound_wood_defaults(),
 })
 
 minetest.register_node("inlaid:diamondwood", {
@@ -67,6 +72,7 @@ minetest.register_node("inlaid:diamondwood", {
 	tiles = {"default_wood.png^inlaid_diamond.png"},
 	groups = {choppy=2,flammable=2,oddly_breakable_by_hand=1,wood=1},
 	drop = 'default:diamond',
+	sounds = default.node_sound_wood_defaults(),
 })
 
 minetest.register_node("inlaid:coalcobble", {
@@ -74,6 +80,7 @@ minetest.register_node("inlaid:coalcobble", {
 	tiles = {"default_cobble.png^inlaid_coal.png"},
 	groups = {cracky=2},
 	drop = 'default:coal_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:ironcobble", {
@@ -81,6 +88,7 @@ minetest.register_node("inlaid:ironcobble", {
 	tiles = {"default_cobble.png^inlaid_iron.png"},
 	groups = {cracky=2},
 	drop = 'default:iron_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:coppercobble", {
@@ -88,6 +96,7 @@ minetest.register_node("inlaid:coppercobble", {
 	tiles = {"default_cobble.png^inlaid_copper.png"},
 	groups = {cracky=2},
 	drop = 'default:copper_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:mesecobble", {
@@ -95,6 +104,7 @@ minetest.register_node("inlaid:mesecobble", {
 	tiles = {"default_cobble.png^inlaid_mese.png"},
 	groups = {cracky=2},
 	drop = 'default:mese_crystal',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:goldcobble", {
@@ -102,6 +112,7 @@ minetest.register_node("inlaid:goldcobble", {
 	tiles = {"default_cobble.png^inlaid_gold.png"},
 	groups = {cracky=2},
 	drop = 'default:gold_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:diamondcobble", {
@@ -109,6 +120,7 @@ minetest.register_node("inlaid:diamondcobble", {
 	tiles = {"default_cobble.png^inlaid_diamond.png"},
 	groups = {cracky=2},
 	drop = 'default:diamond',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:coalstonebrick", {
@@ -116,6 +128,7 @@ minetest.register_node("inlaid:coalstonebrick", {
 	tiles = {"default_stone_brick.png^inlaid_coal.png"},
 	groups = {cracky=2},
 	drop = 'default:coal_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:ironstonebrick", {
@@ -123,6 +136,7 @@ minetest.register_node("inlaid:ironstonebrick", {
 	tiles = {"default_stone_brick.png^inlaid_iron.png"},
 	groups = {cracky=2},
 	drop = 'default:iron_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:copperstonebrick", {
@@ -130,6 +144,7 @@ minetest.register_node("inlaid:copperstonebrick", {
 	tiles = {"default_stone_brick.png^inlaid_copper.png"},
 	groups = {cracky=2},
 	drop = 'default:copper_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:mesestonebrick", {
@@ -137,6 +152,7 @@ minetest.register_node("inlaid:mesestonebrick", {
 	tiles = {"default_stone_brick.png^inlaid_mese.png"},
 	groups = {cracky=2},
 	drop = 'default:mese_crystal',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:goldstonebrick", {
@@ -144,6 +160,7 @@ minetest.register_node("inlaid:goldstonebrick", {
 	tiles = {"default_stone_brick.png^inlaid_gold.png"},
 	groups = {cracky=2},
 	drop = 'default:gold_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:diamondstonebrick", {
@@ -151,6 +168,7 @@ minetest.register_node("inlaid:diamondstonebrick", {
 	tiles = {"default_stone_brick.png^inlaid_diamond.png"},
 	groups = {cracky=2},
 	drop = 'default:diamond',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:coaldesert", {
@@ -158,6 +176,7 @@ minetest.register_node("inlaid:coaldesert", {
 	tiles = {"default_desert_stone.png^inlaid_coal.png"},
 	groups = {cracky=2},
 	drop = 'default:coal_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:irondesert", {
@@ -165,6 +184,7 @@ minetest.register_node("inlaid:irondesert", {
 	tiles = {"default_desert_stone.png^inlaid_iron.png"},
 	groups = {cracky=2},
 	drop = 'default:iron_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:copperdesert", {
@@ -172,6 +192,7 @@ minetest.register_node("inlaid:copperdesert", {
 	tiles = {"default_desert_stone.png^inlaid_copper.png"},
 	groups = {cracky=2},
 	drop = 'default:copper_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:mesedesert", {
@@ -179,6 +200,7 @@ minetest.register_node("inlaid:mesedesert", {
 	tiles = {"default_desert_stone.png^inlaid_mese.png"},
 	groups = {cracky=2},
 	drop = 'default:mese_crystal',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:golddesert", {
@@ -186,6 +208,7 @@ minetest.register_node("inlaid:golddesert", {
 	tiles = {"default_desert_stone.png^inlaid_gold.png"},
 	groups = {cracky=2},
 	drop = 'default:gold_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:diamonddesert", {
@@ -193,6 +216,7 @@ minetest.register_node("inlaid:diamonddesert", {
 	tiles = {"default_desert_stone.png^inlaid_diamond.png"},
 	groups = {cracky=2},
 	drop = 'default:diamond',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:coalmese", {
@@ -200,6 +224,7 @@ minetest.register_node("inlaid:coalmese", {
 	tiles = {"default_mese_block.png^inlaid_coal.png"},
 	groups = {cracky=1},
 	drop = 'default:coal_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:ironmese", {
@@ -207,6 +232,7 @@ minetest.register_node("inlaid:ironmese", {
 	tiles = {"default_mese_block.png^inlaid_iron.png"},
 	groups = {cracky=1},
 	drop = 'default:iron_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:coppermese", {
@@ -214,6 +240,7 @@ minetest.register_node("inlaid:coppermese", {
 	tiles = {"default_mese_block.png^inlaid_copper.png"},
 	groups = {cracky=1},
 	drop = 'default:copper_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:goldmese", {
@@ -221,6 +248,7 @@ minetest.register_node("inlaid:goldmese", {
 	tiles = {"default_mese_block.png^inlaid_mese.png"},
 	groups = {cracky=1},
 	drop = 'default:gold_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:diamondmese", {
@@ -228,6 +256,7 @@ minetest.register_node("inlaid:diamondmese", {
 	tiles = {"default_mese_block.png^inlaid_diamond.png"},
 	groups = {cracky=1},
 	drop = 'default:diamond',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:coalstone", {
@@ -235,6 +264,7 @@ minetest.register_node("inlaid:coalstone", {
 	tiles = {"default_stone.png^inlaid_coal.png"},
 	groups = {cracky=2},
 	drop = 'default:coal_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:ironstone", {
@@ -242,6 +272,7 @@ minetest.register_node("inlaid:ironstone", {
 	tiles = {"default_stone.png^inlaid_iron.png"},
 	groups = {cracky=2},
 	drop = 'default:iron_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:copperstone", {
@@ -249,6 +280,7 @@ minetest.register_node("inlaid:copperstone", {
 	tiles = {"default_stone.png^inlaid_copper.png"},
 	groups = {cracky=2},
 	drop = 'default:copper_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:mesestone", {
@@ -256,6 +288,7 @@ minetest.register_node("inlaid:mesestone", {
 	tiles = {"default_stone.png^inlaid_mese.png"},
 	groups = {cracky=2},
 	drop = 'default:mese_crystal',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:diamondstone", {
@@ -263,6 +296,7 @@ minetest.register_node("inlaid:diamondstone", {
 	tiles = {"default_stone.png^inlaid_diamond.png"},
 	groups = {cracky=2},
 	drop = 'default:diamond',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("inlaid:goldstone", {
@@ -270,6 +304,7 @@ minetest.register_node("inlaid:goldstone", {
 	tiles = {"default_stone.png^inlaid_gold.png"},
 	groups = {cracky=2},
 	drop = 'default:gold_lump',
+	sounds = default.node_sound_stone_defaults(),
 })
 
 --
