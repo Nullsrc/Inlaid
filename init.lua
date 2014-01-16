@@ -1,4 +1,4 @@
-
+--Version 1.2
 --This mod inlays nodes with certain ores.
 
 --
