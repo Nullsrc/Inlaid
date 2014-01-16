@@ -1,3 +1,3 @@
 License for the code is WTFPL.
-License for the textures of the Inlay Tool is WTFPL.
-License of the nodes is the license of the texture pack you are using. For default, it is CC-BY SA
+License for the textures of the Inlay Tool and minerals is WTFPL.
+License of the base nodes is the license of the texture pack you are using. For the default textures packaged with Minetest, it is CC-BY SA
