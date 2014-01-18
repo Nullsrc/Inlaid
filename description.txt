@@ -1,2 +1,2 @@
-This mod adds mineral textures onto nodes. Currently in version 1.3
+This mod adds mineral textures onto nodes. Currently in version 1.4
 You can inform me of bugs by creating an issue in github. https://github.com/NANOsoldierEnke/inlaid
