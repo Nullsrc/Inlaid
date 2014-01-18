@@ -563,6 +563,48 @@ minetest.register_craft({
 		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
 })
 
+minetest.register_craft({
+	type = "shapeless",
+	output = 'default:stone_with_coal',
+	recipe = {"default:stone", "default:coal_lump", "default:coal_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'default:stone_with_iron',
+	recipe = {"default:stone", "default:iron_lump", "default:iron_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'default:stone_with_copper',
+	recipe = {"default:stone", "default:copper_lump", "default:copper_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'default:stone_with_gold',
+	recipe = {"default:stone", "default:gold_lump", "default:gold_lump", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'default:stone_with_mese',
+	recipe = {"default:stone", "default:mese_crystal", "default:mese_crystal", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'default:stone_with_diamond',
+	recipe = {"default:stone", "default:diamond", "default:diamond", "inlaid:inlaytool"},
+		replacements = { {'inlaid:inlaytool', 'inlaid:inlaytool'} },
+})
+
 --
 --If anyone desires to provide textures of the inlaytool for a new version of inlaid, feel free to make them and post them for me. I would appreciate it.
 --
